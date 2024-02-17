@@ -10,7 +10,7 @@ def CenterRecthangles(left,right,steps):
     for _ in range (steps):
         result +=f(step/2+step*i)*step
         i+=1
-        return result
+    return result
  
 def PrintSolution():
     left=0

@@ -10,7 +10,7 @@ def trapezoidRecthangles(left,right,steps):
     for _ in range (steps):
         result +=(f(step*i)+f(step*(i+1)))*0.5*step
         i+=1
-        return result
+    return result
  
 def PrintSolution():
     left=0
